@@ -2,10 +2,10 @@
 
 namespace AspnetCore6ApiTestingDemo.Model;
 
-public class DtoBase
+public abstract class DtoBase
 {
-    public override string ToString()
-    {
-        return JsonSerializer.Serialize(this);
-    }
+    //public override string ToString()
+    //{
+    //    return JsonSerializer.Serialize(this);
+    //}
 }
