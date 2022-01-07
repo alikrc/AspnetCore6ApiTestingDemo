@@ -1,8 +1,6 @@
-using System.Text.Json;
-
 namespace AspnetCore6ApiTestingDemo.Model;
 
-public class UserDto : DtoBase
+public class UserDto
 {
     public int Id { get; set; }
     public string Name { get; set; }

@@ -8,8 +8,8 @@ using Microsoft.Extensions.DependencyInjection;
 using AspnetCore6ApiTestingDemo.Model;
 using AutoMapper;
 using System.Collections.Generic;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
 using System.Linq;
+using FluentAssertions;
 
 namespace AspnetCore6ApiTestingDemo.Test;
 
@@ -32,7 +32,7 @@ public class GetUsersTest : TestBase
     {
         //setup
         var user = await CreateUserAsync();
-        var expected = mapper.Map<UserDto>(user);
+        var expectedUser = mapper.Map<UserDto>(user);
 
         //act
         var url = $"api/user";
@@ -40,9 +40,9 @@ public class GetUsersTest : TestBase
 
         var list = await GetDtoFromResponse<List<UserDto>>(response);
 
-        var actual = list.FirstOrDefault();
+        var actualUser = list.FirstOrDefault();
 
-        Assert.AreEqual(JsonSerializer.Serialize(expected), JsonSerializer.Serialize(actual));
+        expectedUser.Should().BeEquivalentTo(actualUser);
     }
 
     protected async Task<User> CreateUserAsync()

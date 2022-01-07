@@ -1,5 +1,4 @@
 ﻿using AspnetCore6ApiTestingDemo.Infra;
-using AspnetCore6ApiTestingDemo.Startup;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.EntityFrameworkCore;

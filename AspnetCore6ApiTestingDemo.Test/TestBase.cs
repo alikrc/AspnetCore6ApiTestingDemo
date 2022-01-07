@@ -1,9 +1,5 @@
-﻿using AspnetCore6ApiTestingDemo.Entity;
-using AspnetCore6ApiTestingDemo.Infra;
-using AutoMapper;
-using Microsoft.AspNetCore.Mvc.Testing;
+﻿using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
 using NUnit.Framework;
 using System;
 using System.Net.Http;

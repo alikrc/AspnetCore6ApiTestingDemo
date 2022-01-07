@@ -1,6 +1,5 @@
 ﻿using AspnetCore6ApiTestingDemo.Infra;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
 
 namespace AspnetCore6ApiTestingDemo.Test
 {
