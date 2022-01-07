@@ -9,7 +9,7 @@ using System.Text.Json.Serialization;
 namespace AspnetCore6ApiTestingDemo.Test
 {
     [TestFixture]
-    public class TestBase
+    public abstract class TestBase
     {
         private IServiceScope scope;
         private readonly WebApplicationFactory<Program> _webApplicationFactory;
