@@ -61,15 +61,8 @@ public class GetUsersTest : TestBase
 
     protected async Task<T> GetDtoFromResponse<T>(HttpResponseMessage response)
     {
-        try
-        {
-            var responseBody = await response.Content.ReadAsStringAsync();
+        var responseBody = await response.Content.ReadAsStringAsync();
 
-            return JsonSerializer.Deserialize<T>(responseBody, JsonSerializerOptions);
-        }
-        catch (System.Exception ex)
-        {
-            throw;
-        }
+        return JsonSerializer.Deserialize<T>(responseBody, JsonSerializerOptions);
     }
 }
