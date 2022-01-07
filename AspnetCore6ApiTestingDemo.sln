@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetCore6ApiTestingDemo", "AspnetCore6ApiTestingDemo\AspnetCore6ApiTestingDemo.csproj", "{30DEC6DE-FF77-4F73-8838-5CEDEF61C2ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetCore6ApiTestingDemo.Test", "AspnetCore6ApiTestingDemo.Test\AspnetCore6ApiTestingDemo.Test.csproj", "{3ABBE41C-4797-4D13-A45E-DCCDC9CA83B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30DEC6DE-FF77-4F73-8838-5CEDEF61C2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DEC6DE-FF77-4F73-8838-5CEDEF61C2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DEC6DE-FF77-4F73-8838-5CEDEF61C2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DEC6DE-FF77-4F73-8838-5CEDEF61C2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ABBE41C-4797-4D13-A45E-DCCDC9CA83B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABBE41C-4797-4D13-A45E-DCCDC9CA83B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABBE41C-4797-4D13-A45E-DCCDC9CA83B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABBE41C-4797-4D13-A45E-DCCDC9CA83B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87C68D04-6F5F-4B15-B3F7-FEFEFE40C202}
+	EndGlobalSection
+EndGlobal
